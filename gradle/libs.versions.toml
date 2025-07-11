@@ -1,16 +1,81 @@
 [versions]
+adrevenue = "6.9.1"
+afAndroidSdk = "6.14.0"
 agp = "8.11.0"
-kotlin = "2.0.21"
+applovin = "13.0.0.1"
+billing = "7.1.0"
+chartboost = "9.7.0.0"
+coilNetworkOkhttp = "3.2.0"
+facebook = "6.18.0.0"
+firebaseBom = "33.16.0"
+fyber = "8.3.0.0"
+guava = "31.1-jre"
+inmobi = "10.7.8.0"
+installreferrer = "2.2"
+ironsource = "8.4.0.0"
+kotlin = "2.0.10"
 coreKtx = "1.16.0"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
+library = "3.5.2"
+libraryNoOpVersion = "3.5.2"
 lifecycleRuntimeKtx = "2.9.1"
-activityCompose = "1.10.1"
+activityCompose = "1.8.0"
 composeBom = "2024.09.00"
-
+gson = "2.13.1"
+lottie = "6.2.0"
+media3Exoplayer = "1.3.1"
+media3ExoplayerDash = "1.3.1"
+media3ExoplayerHls = "1.4.1"
+mintegral = "16.8.61.0"
+mytarget = "5.22.1.0"
+pangle = "6.2.0.7.0"
+playServicesAds = "24.4.0"
+retrofit = "3.0.0"
+roomRuntime = "2.6.1"
+converterGson = "2.11.0"
+converterScalars = "2.9.0"
+kotlinxSerializationJson = "1.8.0"
+loggingInterceptor = "5.0.0-alpha.9"
+timber = "5.0.1"
+multidex = "2.0.1"
+material3 = "1.3.2"
+daggerHilt = "2.56.2"
+ksp = "2.0.10-1.0.24"
+lifecycleViewmodelCompose = "2.9.1"
+hiltNavigationCompose = "1.2.0"
+firebaseMessagingKtx = "24.0.3"
+material = "1.12.0"
+appcompat = "1.7.1"
+constraintlayout = "2.2.1"
+navigationFragmentKtx = "2.9.1"
+navigationUiKtx = "2.9.1"
+unity = "4.12.3.0"
+unityAds = "4.12.2"
+userMessagingPlatform = "3.2.0"
+vungle = "7.4.1.0"
+toolsCore = "1.0.0-alpha13"
 [libraries]
+adrevenue = { module = "com.appsflyer:adrevenue", version.ref = "adrevenue" }
+af-android-sdk = { module = "com.appsflyer:af-android-sdk", version.ref = "afAndroidSdk" }
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-media3-exoplayer = { module = "androidx.media3:media3-exoplayer", version.ref = "media3Exoplayer" }
+androidx-media3-exoplayer-hls = { module = "androidx.media3:media3-exoplayer-hls", version.ref = "media3ExoplayerHls" }
+androidx-media3-ui = { module = "androidx.media3:media3-ui", version.ref = "media3Exoplayer" }
+applovin = { module = "com.google.ads.mediation:applovin", version.ref = "applovin" }
+billing = { module = "com.android.billingclient:billing", version.ref = "billing" }
+chartboost = { module = "com.google.ads.mediation:chartboost", version.ref = "chartboost" }
+coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilNetworkOkhttp" }
+coil-network-okhttp = { module = "io.coil-kt.coil3:coil-network-okhttp", version.ref = "coilNetworkOkhttp" }
+facebook = { module = "com.google.ads.mediation:facebook", version.ref = "facebook" }
+firebase-analytics = { module = "com.google.firebase:firebase-analytics" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+fyber = { module = "com.google.ads.mediation:fyber", version.ref = "fyber" }
+guava = { module = "com.google.guava:guava", version.ref = "guava" }
+inmobi = { module = "com.google.ads.mediation:inmobi", version.ref = "inmobi" }
+installreferrer = { module = "com.android.installreferrer:installreferrer", version.ref = "installreferrer" }
+ironsource = { module = "com.google.ads.mediation:ironsource", version.ref = "ironsource" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -24,9 +89,60 @@ androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-toolin
 androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
 androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+library-no-op-v352 = { module = "com.github.chuckerteam.chucker:library-no-op", version.ref = "libraryNoOpVersion" }
+library-v352 = { module = "com.github.chuckerteam.chucker:library", version.ref = "library" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material3 = { module = "androidx.compose.material3:material3", version.ref = "material3" }
+androidx-lifecycle-viewmodel-compose = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version.ref = "lifecycleViewmodelCompose" }
+androidx-hilt-navigation-compose = { module = "androidx.hilt:hilt-navigation-compose", version.ref = "hiltNavigationCompose" }
+androidx-lifecycle-runtime-compose = { module = "androidx.lifecycle:lifecycle-runtime-compose" }
 
+media3-exoplayer-dash = { module = "androidx.media3:media3-exoplayer-dash", version.ref = "media3ExoplayerDash" }
+mintegral = { module = "com.google.ads.mediation:mintegral", version.ref = "mintegral" }
+mytarget = { module = "com.google.ads.mediation:mytarget", version.ref = "mytarget" }
+pangle = { module = "com.google.ads.mediation:pangle", version.ref = "pangle" }
+play-services-ads = { module = "com.google.android.gms:play-services-ads", version.ref = "playServicesAds" }
+retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit" }
+
+
+#Multidex
+androidx-multidex = { module = "androidx.multidex:multidex", version.ref = "multidex" }
+#GSON
+kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlinxSerializationJson" }
+converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
+converter-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "converterScalars" }
+
+
+
+
+gson = { module = "com.google.code.gson:gson", version.ref = "gson" }
+timber = { module = "com.jakewharton.timber:timber", version.ref = "timber" }
+logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "loggingInterceptor" }
+#room
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+
+
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "daggerHilt" }
+hilt-android-compiler = { module = "com.google.dagger:hilt-android-compiler", version.ref = "daggerHilt" }
+#firbase
+firebase-messaging-ktx = { group = "com.google.firebase", name = "firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
+firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
+unity = { module = "com.google.ads.mediation:unity", version.ref = "unity" }
+unity-ads = { module = "com.unity3d.ads:unity-ads", version.ref = "unityAds" }
+user-messaging-platform = { module = "com.google.android.ump:user-messaging-platform", version.ref = "userMessagingPlatform" }
+vungle = { module = "com.google.ads.mediation:vungle", version.ref = "vungle" }
+androidx-tools-core = { group = "androidx.privacysandbox.tools", name = "tools-core", version.ref = "toolsCore" }
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
-
+google-daggerhilt-android = { id = "com.google.dagger.hilt.android", version.ref = "daggerHilt" }
+#
+google-ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }

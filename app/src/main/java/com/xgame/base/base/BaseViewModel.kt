@@ -5,8 +5,6 @@ import android.content.Intent
 import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.xgame.base.data.network.interceptor.NetworkCheckerInterceptor
-import com.xgame.base.data.network.api.ApiHelper
 import com.xgame.base.data.state.ErrorAction
 import com.xgame.base.data.state.DataState
 import com.xgame.base.data.state.ErrorCode
@@ -16,6 +14,8 @@ import com.xgame.base.BuildConfig
 import com.xgame.base.R
 import com.xgame.base.data.local.AppPreferences
 import com.xgame.base.data.local.database.DatabaseHelper
+import com.xgame.base.data.network.api.ApiHelper
+import com.xgame.base.data.network.interceptor.NetworkCheckerInterceptor
 import com.xgame.base.data.response.BaseDataResponse
 import com.xgame.base.di.GlobalData
 import com.xgame.base.extension.getOrBlank

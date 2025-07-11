@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "620881453351",
+    "project_id": "base-android---xgamehcm",
+    "storage_bucket": "base-android---xgamehcm.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620881453351:android:224703bab01842c9944902",
+        "android_client_info": {
+          "package_name": "com.xgame.base"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMVXlwrSLatvTHj9uNM8sWOO3ZY5xow4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620881453351:android:7e68e545f811aa24944902",
+        "android_client_info": {
+          "package_name": "com.xgame.base.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMVXlwrSLatvTHj9uNM8sWOO3ZY5xow4U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

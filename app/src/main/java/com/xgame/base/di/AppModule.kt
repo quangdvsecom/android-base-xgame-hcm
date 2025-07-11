@@ -2,13 +2,13 @@ package com.xgame.base.di
 
 import android.content.Context
 import android.content.SharedPreferences
+import com.xgame.base.data.network.api.ApiConfigService
 import com.google.gson.Gson
 import com.google.gson.GsonBuilder
 import com.google.gson.Strictness
 import com.xgame.base.data.local.AppPreferences
 import com.xgame.base.data.local.database.AppDatabase
 import com.xgame.base.data.local.database.DatabaseBuilder
-import com.xgame.base.data.network.api.ApiConfigService
 import com.xgame.base.data.network.api.ApiService
 import com.xgame.base.data.network.api.OtherApiService
 import com.xgame.base.data.network.api.RefreshTokenService
