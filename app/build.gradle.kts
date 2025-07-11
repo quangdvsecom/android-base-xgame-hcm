@@ -29,7 +29,7 @@ android {
 
     defaultConfig {
         applicationId = "com.xgame.base"
-        minSdk = 24
+        minSdk = 26
         targetSdk = 36
         versionCode = 1
         versionName = "1.0"
@@ -114,6 +114,7 @@ dependencies {
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
     implementation(libs.androidx.tools.core)
+    implementation(libs.androidx.work.runtime.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
@@ -146,7 +147,7 @@ dependencies {
     //Image - Video
     implementation(libs.coil.compose)
     implementation(libs.coil.network.okhttp)
-
+    implementation (libs.glide)
     // Retrofit // Chú ý chỗ mấy thằng này rất hay xung đột version khi nâng ver mới, =>> nên dùng ver cũ
     implementation(libs.retrofit)
     implementation(libs.converter.scalars)

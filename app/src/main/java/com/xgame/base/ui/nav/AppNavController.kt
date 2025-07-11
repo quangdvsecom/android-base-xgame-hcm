@@ -19,6 +19,7 @@ sealed class Destinations(val route: String) {
     data object Intro : Destinations("Intro")
     data object Main : Destinations("Main")
     data object Setting : Destinations("setting")
+    data object DetailsScreen: Destinations("DetailsDemo")
     data object HomeDemo : Destinations("HomeDemo")
     data object SettingAreaBlock : Destinations("SettingAreaBlock")
     data object SetPassWord : Destinations("setpassword/{isNewPassword}") {
@@ -75,7 +76,7 @@ class DemoAppNavController(
     }
 
 
-    // pop to targetRoute and clear itself
+    // pop to targetRoute and clear it self
     fun popNavigateTo(targetRoute: String) {
         if (targetRoute != currentRoute) {
             navController.popBackStack(findStartDestination(navController.graph).id, true)

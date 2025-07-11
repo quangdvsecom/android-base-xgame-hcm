@@ -78,7 +78,12 @@ object Constant {
     //Firebase Notice
     const val FIREBASE_NEW_TOKEN = "MyFirebaseMessageNewToken"
     const val FIREBASE_NEW_NOTICE = "MyFirebaseNewNotice"
-
+    const val NOTIFICATION_SETTING = 1
+    const val ACTION_NOTIFICATION_CLICK = "ACTION_NOTIFICATION_CLICK"
+    const val ACTION_NAVI_TO_EVENT_DETAILS = "0"
+    const val ACTION_NAVI_TO_NEWS_DETAILS = "1"
+    const val ACTION_NAVI_TO_LUCKY_SPIN = "2"
+    val ACTION_NAVI_TO_CAR_SURVEY = setOf("4", "5")
     /*
     * KAM
     * */

@@ -5,6 +5,12 @@
     <string name="network_error">No Connect Internet, Please check and try again!</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
-
-
+    <string name="default_notification_channel_id">Base X-Game HCM</string>
+    <string name="notice_title">Title Notice</string>
+    <string name="lose_connection">Mất kết nối</string>
+    <string name="no_internet_connection">Không có kết nối Internet hoặc kết nối không ổn định. Vui lòng kiểm tra lại cài đặt mạng.</string>
+    <string name="try_again">Thử lại</string>
+    <string name="setting_network">Cài đặt mạng</string>
+    <string name="cancel">Cancel</string>
+    <string name="accept">Accept</string>
 </resources>
